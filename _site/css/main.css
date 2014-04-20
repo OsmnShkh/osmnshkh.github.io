@@ -63,6 +63,21 @@ a:visited { color: #a0a; }
   line-height: 1.5em;
 }
 
+body {background-color:#ecf0f1;}
+
+.nav{
+  background-color: #3498db;
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.nav a{
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -74,7 +89,8 @@ a:visited { color: #a0a; }
 }
 
 .title a {
-  color: #a00;
+  color: white;
+  margin-right: 10px;
 }
 
 .title a:hover {
