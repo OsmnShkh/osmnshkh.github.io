@@ -85,12 +85,11 @@ padding-bottom: 2em;
 
 .nav{
   background-color: #3498db;
-  text-align: left;
   width: 100%;
-  float: left;
   margin: 0 0 3em 0;
   padding: 0;
   list-style: none;
+  text-align: center;
 }
 
 .nav a{
@@ -101,16 +100,17 @@ padding-bottom: 2em;
 }
 
 .nav li {
-  float: left;
    display:inline;
+   margin: 0 auto;
 }
+
 .header a {
   font-weight: bold;
   text-decoration: none;
 }
 
 .title {
-  display: inline-block;
+  display: block;
   margin-bottom: 2em;
 }
 
