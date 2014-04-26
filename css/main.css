@@ -22,7 +22,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 2.5em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -58,12 +58,20 @@ margin-bottom: 30px;
   color: #7f8c8d;;
 }
 
+input[type="submit"] {
+    font-family: FontAwesome;
+}
+
 .feed a {
-  color: black;
+  color: #7f8c8d;
   text-decoration: none;
-  margin-top: 2em;
+  margin-top: 1.5em;
   display: inline-block;
 
+}
+
+.feed a:hover {
+  color: black;
 }
 h2 {
   line-height: 2.5em;
