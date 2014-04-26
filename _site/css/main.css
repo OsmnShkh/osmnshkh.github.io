@@ -38,7 +38,7 @@ a:visited { color: #a0a; }
 max-width: 600px;
 text-align: center;
 margin: 0 auto;
-padding-bottom: 2em;
+padding-bottom: .5em;
 position: relative;
 
 }
@@ -49,8 +49,11 @@ position: relative;
   font-size: 20px;
 }
 
-.intro h3{
+.intro p{
   font-family: 'Open Sans', 'sans-serif';
+  color: #7f8c8d;
+  font-style: italic;
+
 
 }
 
@@ -104,10 +107,14 @@ position: relative;
 }
 
 .nav a{
-  color: white;
+  color: #ecf0f1;
   text-decoration: none;
   display:inline-block;
   padding:10px;
+}
+
+.nav a:hover {
+  color: #fafafa;
 }
 
 .nav li {
@@ -122,7 +129,9 @@ position: relative;
 
 .title {
   display: block;
-  margin-bottom: 2em;
+  margin-bottom: .25em;
+  padding-top: .25em;
+  font-size: 30px;
 }
 
 .title a {
@@ -131,7 +140,6 @@ position: relative;
 }
 
 .title a:hover {
-  color: #000;
 }
 
 .header a.extra {
