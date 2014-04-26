@@ -104,8 +104,6 @@ position: relative;
   bottom: -20px;
   border-bottom: 1px solid #666;
 }
-
-}
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
@@ -124,7 +122,7 @@ position: relative;
 /* MailChimp Form Embed Code - Slim - 08/17/2011 */
 #mc_embed_signup form {position:relative; padding:10px 0}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
-#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none; text-align: center;}
+#mc_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
 #mc_embed_signup input:focus {border-color:#333;}
