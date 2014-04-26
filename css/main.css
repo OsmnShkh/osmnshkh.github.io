@@ -35,11 +35,12 @@ a:visited { color: #a0a; }
 /*
 /*****************************************************************************/
 .intro {
-border-bottom: 2px solid black;
 max-width: 600px;
 text-align: center;
 margin: 0 auto;
 padding-bottom: 2em;
+position: relative;
+
 }
 
 .intro h2 {
@@ -52,6 +53,16 @@ padding-bottom: 2em;
   font-family: 'Open Sans', 'sans-serif';
 
 }
+
+.intro:after {
+  content: '';
+  position: absolute;
+  width: 80%;
+  left: 10%;
+  bottom: -20px;
+  border-bottom: 1px solid #666;
+}
+
 
 .posts {
   list-style-type: none;
