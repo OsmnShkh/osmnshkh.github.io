@@ -42,17 +42,19 @@ padding-bottom: .5em;
 position: relative;
 
 }
+.intro div {
+  display: inline-block;
+}
 
 .intro h2 {
-  line-height: 2em;
+  line-height: 2.5em;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 20px;
 }
 
-.intro p{
+#subheading{
   font-family: 'Open Sans', 'sans-serif';
   color: #7f8c8d;
-  font-style: italic;
 
 
 }
@@ -111,6 +113,7 @@ position: relative;
   text-decoration: none;
   display:inline-block;
   padding:10px;
+  font-family:'Open Sans', 'sans-serif';
 }
 
 .nav a:hover {
@@ -132,6 +135,7 @@ position: relative;
   margin-bottom: .25em;
   padding-top: .25em;
   font-size: 30px;
+  font-family:'Open Sans', 'sans-serif';
 }
 
 .title a {
