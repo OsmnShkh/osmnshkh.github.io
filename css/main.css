@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background-color: rgb(246, 246, 239);
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -63,21 +63,28 @@ a:visited { color: #a0a; }
   line-height: 1.5em;
 }
 
-body {background-color:#ecf0f1;}
 
 .nav{
   background-color: #3498db;
   text-align: left;
-  padding-left: 30px;
-  padding-top: 30px;
+  width: 100%;
+  float: left;
+  margin: 0 0 3em 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav a{
   color: white;
   text-decoration: none;
-  margin-right: 10px;
+  display:inline-block;
+  padding:10px;
 }
 
+.nav li {
+  float: left;
+   display:inline;
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
@@ -112,19 +119,13 @@ body {background-color:#ecf0f1;}
 
 .footer {
   font-size: 80%;
-  color: #666;
+  background-color: white;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
-}
-
-.footer .contact {
-  float: left;
-  margin-right: 3em;
-}
-
-.footer .contact a {
-  color: #8085C1;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
 }
 
 .footer .rss {
