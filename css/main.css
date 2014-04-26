@@ -34,6 +34,25 @@ a:visited { color: #a0a; }
 /* Home
 /*
 /*****************************************************************************/
+.intro {
+border-bottom: 2px solid black;
+max-width: 600px;
+text-align: center;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+.intro h2 {
+  line-height: 2em;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 20px;
+}
+
+.intro h3{
+  font-family: 'Open Sans', 'sans-serif';
+
+}
+
 .posts {
   list-style-type: none;
   margin-bottom: 2em;
