@@ -87,7 +87,6 @@ h2 {
 }
 
 .intro h2 {
-  line-height: 2.5em;
   font-family: 'Open Sans', 'sans-serif';
   font-size: 25px;
 }
@@ -251,7 +250,7 @@ h2 {
   font-size: 80%;
   background-color: #3498db;
   border-top: 4px solid #eee;
-  margin-top: 2em;
+  margin-top: 100px;
   overflow: hidden;
   width: 100%;
   bottom: 0;
@@ -266,6 +265,7 @@ h2 {
   margin-right: -.2em;
   float: right;
 }
+
 
 .footer .rss img {
   border: 0;
