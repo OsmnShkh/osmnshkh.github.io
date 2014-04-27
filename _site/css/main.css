@@ -48,6 +48,9 @@ position: relative;
 margin-bottom: 30px;
 }
 
+h3{
+  font-size: 17px;
+}
 .feed h2 {
   font-size: 15px;
 }
@@ -56,6 +59,10 @@ margin-bottom: 30px;
   max-width: 70%;
   margin: 0 auto;
   color: #7f8c8d;;
+}
+
+.intro #comma {
+  margin-left: -5px;
 }
 
 input[type="submit"] {
